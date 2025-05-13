@@ -1,12 +1,14 @@
 package com.example.springbasiclayered.dto;
 
 import com.example.springbasiclayered.entity.Memo;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
  * Memo 응답 DTO
  */
 @Getter
+@AllArgsConstructor
 public class MemoResponseDto {
 
     /**
